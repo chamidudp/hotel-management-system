@@ -1,0 +1,42 @@
+.viewContainer {
+    width: 90%;
+    min-height: 700px;
+    background-color: rgba(14, 15, 15, 0.2);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 30px;
+    padding-left: 90px;
+}
+
+.viewContainerInner {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.151);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.viewOne {
+    width: 90%;
+    height: 515px;
+    background-color: rgba(14, 15, 15, 0.2);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contactUs {
+    width: 50%;
+    min-height: 565px;
+    background-color: rgba(14, 15, 15, 0.2);
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contForm {
+    width: 60%;
+    margin: 0 auto;
+}

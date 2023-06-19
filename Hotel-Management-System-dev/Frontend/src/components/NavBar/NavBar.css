@@ -1,0 +1,14 @@
+.NavBar {
+    padding: 20px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.navtext {
+    color: white;
+}
+
+.navbtn {
+    margin-right: 60px;
+}
