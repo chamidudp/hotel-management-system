@@ -21,7 +21,8 @@ import {
   Rooms,
   HallOne,
   RoomOne,
-  ContactUs
+  ContactUs,
+  AboutUs
 } from "../pages";
 
 const AppRoutes = () => {
@@ -48,6 +49,7 @@ const AppRoutes = () => {
           <Route exact path="/roomOne/:id" element={<RoomOne />} />
 
           <Route exact path="/contactUs" element={<ContactUs />} />
+          <Route exact path="/aboutus" element={<AboutUs />} />
         </Routes>
         <Footer />
       </Router>

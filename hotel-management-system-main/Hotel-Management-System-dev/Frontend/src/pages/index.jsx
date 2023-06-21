@@ -14,6 +14,7 @@ import Rooms from "./rooms";
 import HallOne from "./hallOne";
 import RoomOne from "./roomOne";
 import ContactUs from "./contactUs";
+import AboutUs from "./aboutus";
 
 export {
     Home,
@@ -32,4 +33,5 @@ export {
     HallOne,
     RoomOne,
     ContactUs,
+    AboutUs,
 };

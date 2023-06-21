@@ -229,7 +229,7 @@ export default function NavBar() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary">Understood</Button>
+                    
                 </Modal.Footer>
             </Modal>
 
@@ -248,13 +248,13 @@ export default function NavBar() {
                         <Button variant="dark" className="navbtn" as={Link} to="http://localhost:3006/" style={{ color: 'white' }}>Travel Management</Button>
                     </Navbar.Text>
                     <Navbar.Text>
-                        <Button variant="dark" className="navbtn" as={Link} to="/contactUs" style={{ color: 'white' }}>Food Ordering</Button>
+                        <Button variant="dark" className="navbtn" as={Link} to="https://nilwala-breeze-food-order.netlify.app/" style={{ color: 'white' }}>Food Ordering</Button>
                     </Navbar.Text>
                     <Navbar.Text>
                         <Button variant="dark" className="navbtn" as={Link} to="/contactUs" style={{ color: 'white' }}>Contact Us</Button>
                     </Navbar.Text>
                     <Navbar.Text>
-                        <Button variant="dark" className="navbtn" as={Link} to="/contactUs" style={{ color: 'white' }}>About Us</Button>
+                        <Button variant="dark" className="navbtn" as={Link} to="/aboutus" style={{ color: 'white' }}>About Us</Button>
                     </Navbar.Text>
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">

@@ -140,8 +140,8 @@ export default function Login() {
                 <Modal.Body>
                     <Formik
                         initialValues={{
-                            email: 'randula98@gmail.com',
-                            password: '123456789',
+                            email: 'chamindu@gmail.com',
+                            password: '12345',
                         }}
                         validationSchema={LoginSchema}
                         onSubmit={values => {
