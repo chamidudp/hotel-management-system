@@ -23,7 +23,7 @@ export default function Rooms() {
             <div className="viewContainer">
                 <Alert variant='secondary'>
                     {/* get text on the center */}
-                    <h4 style={{ textAlign: 'center' }}>Wedding Rooms</h4>
+                    <h4 style={{ textAlign: 'center' }}>Rooms</h4>
                 </Alert>
 
                 <div className="viewContainerInner">

@@ -15,6 +15,8 @@ export default function AdminDash() {
 
     return (
         <>
+        <br />
+        <Button variant="primary" href='https://rococo-pithivier-4cf4b9.netlify.app' style={{textAlign:'center'}}>Manage Inventory</Button>
             <div className="dashContainer">
 
                 <Card style={{ width: '18rem', height: '19rem', backgroundColor: 'white' }}>
@@ -64,6 +66,8 @@ export default function AdminDash() {
                         <Button variant="primary" href='/adminRecepts'>View</Button>
                     </Card.Body>
                 </Card>
+
+                
 
 
 
